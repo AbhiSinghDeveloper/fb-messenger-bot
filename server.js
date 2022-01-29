@@ -3,8 +3,6 @@ const morgan = require('morgan');
 const bodyParser = require('body-parser');
 const app = express();
 
-// curl -X POST -H "Content-Type: application/json" -d '{"get_started":{"payload":"Welcome"}}' "https://graph.facebook.com/v2.6/me/messenger_profile?access_token=EAAY6pHGUkXABAFXv6u6puKKeuIPUyJ2Vb9ijL5EUh8ruzUb2yJQBcBh6zhZBjiut4N4HpxoQciHi4L5n1WZCXjVDBor06G4zBekSBQpnljHOGkZBqTcUyShTQpaU5UrBn9uUGDJttbERd2iCyR7RbrDaIG1uvh55uOo1UAkgOMl55Pv5ucs"
-
 
 // app configuration
 app.set('port', (process.env.PORT || 3000));
